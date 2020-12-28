@@ -1,6 +1,6 @@
 # Flappy-Bird
 
-Game desenvolvido durante Estudo de Desenvolvimento Front-End.
+<b>Game desenvolvido durante Estudo de Desenvolvimento Front-End.
 
 Instruções:
 
