@@ -7,6 +7,18 @@
     src: url("../fonts/Pixel.ttf")
 }
 
+h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+#return{
+    position: absolute;
+    font-size: 18px;
+    top: 47px;
+    left: 6px;    
+}
+
 [wm-flappy]{
     position: relative;
     border:5px solid dodgerblue;
@@ -18,11 +30,18 @@
     overflow: hidden;
 }
 
+#call-back{
+    width: 50px;
+    position: absolute;
+    top:10px;
+    left:10px;
+    cursor: pointer;
+}
+
 .passaro{
     position:absolute;
-    width: 60px;
+    width: 50px;
     left:calc(50% - 30px);
-    bottom: 50%;
 }
 
 .par-de-barreiras{
@@ -62,4 +81,13 @@
     right: 10px;
     font-family: Pixel;
     font-size: 50px;
+    z-index: 1;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: 100;
+    font-size: 21px;
+    cursor: pointer;
 }
