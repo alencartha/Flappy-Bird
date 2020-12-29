@@ -17,6 +17,7 @@ h1{
     font-size: 18px;
     top: 47px;
     left: 6px;    
+    z-index: 1;
 }
 
 [wm-flappy]{
@@ -36,6 +37,7 @@ h1{
     top:10px;
     left:10px;
     cursor: pointer;
+    z-index: 1;
 }
 
 .passaro{
